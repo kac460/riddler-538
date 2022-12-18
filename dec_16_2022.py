@@ -12,6 +12,7 @@ def trib_contains(
         c = next_seq
     if a + b + c == target:
         return True
+    return False
 
 def main():
     smallest_sum = float('inf')
